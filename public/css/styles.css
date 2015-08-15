@@ -1,0 +1,218 @@
+@font-face {
+	font-family:'montserratbold';
+	src:url('../font/montserrat-bold-webfont.eot');
+	src:url('../font/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../font/montserrat-bold-webfont.woff2') format('woff2'),
+		url('../font/montserrat-bold-webfont.woff') format('woff'),
+		url('../font/montserrat-bold-webfont.ttf') format('truetype'),
+		url('../font/montserrat-bold-webfont.svg#montserratbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family:'pantonitalic';
+	src:url('../font/panton-italic-webfont.eot');
+	src:url('../font/panton-italic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../font/panton-italic-webfont.woff2') format('woff2'),
+		url('../font/panton-italic-webfont.woff') format('woff'),
+		url('../font/panton-italic-webfont.ttf') format('truetype'),
+		url('../font/panton-italic-webfont.svg#pantonitalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family:'pantonregular';
+	src:url('../font/panton-regular-webfont.eot');
+	src:url('../font/panton-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../font/panton-regular-webfont.woff2') format('woff2'),
+		url('../font/panton-regular-webfont.woff') format('woff'),
+		url('../font/panton-regular-webfont.ttf') format('truetype'),
+		url('../font/panton-regular-webfont.svg#pantonregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	font-family:'pantonregular';
+	font-size:15px
+}
+body.nosotros,
+.body.servicios {
+	font-size:13px
+}
+a {
+	display:inline-block
+}
+a:hover {
+	text-decoration:none
+}
+header {
+	padding:24px 35px 0;
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:9;
+	background:transparent;
+	-webkit-transition:background 250ms linear;
+    -moz-transition:background 250ms linear;
+    -o-transition:background 250ms linear;
+    -ms-transition:background 250ms linear;
+    transition:background 250ms linear;
+}
+footer {
+	background-color:#1d2525;
+	color:#687979;
+	height:128px;
+	margin-top:60px;
+	overflow:hidden
+}
+footer .container {
+	margin-top:42px
+}
+footer p {
+	font-family:'pantonitalic';
+	font-size:12px;
+	margin-bottom:6px
+}
+footer img {
+	margin-top:10px
+}
+h2,h3,h4 {
+	text-align:center
+}
+h2,h3 {
+	color:#fff
+}
+h2,h4 {
+	font-family:'montserratbold'
+}
+h2 {
+	font-size:60px;
+	margin-bottom:40px;
+	margin-top:0;
+	text-transform:uppercase
+}
+h3 {
+	font-size:19px;
+	line-height:23px
+}
+h4 {
+	color:#4e5772;
+	font-size:42px;
+	margin:60px 0
+}
+.nosotros h4 {
+	font-size:32px;
+	margin-bottom:20px
+}
+.menu a {
+	color:#fff;
+	font-size:14px;
+	margin:0 15px;
+	padding-bottom:4px
+}
+.menu a.active,.menu a:focus {
+	text-decoration:none;
+	border-bottom:4px solid #b3d807
+}
+.social {
+	margin-bottom:0
+}
+.degrade {
+	background:rgba(51, 51, 51, .75);
+	-webkit-transition:background 750ms linear;
+    -moz-transition:background 750ms linear;
+    -o-transition:background 750ms linear;
+    -ms-transition:background 750ms linear;
+    transition:background 750ms linear;
+}
+.fondo {
+	background-position:center top;
+	background-repeat:repeat-x
+}
+.inicio .fondo {
+	background-image:url('../img/fondo-inicio.jpg')
+}
+.nosotros .fondo {
+	background-image:url('../img/fondo-nosotros.jpg')
+}
+.servicios .fondo {
+	background-image:url('../img/fondo-servicios.jpg')
+}
+.transparencia .fondo {
+	background-image:url('../img/fondo-transparencia.jpg')
+}
+.bajar {
+	width:49px;
+	margin-top:140px
+}
+.row.inicio {
+	margin-top:320px;
+	margin-bottom:135px
+}
+.row.nosotros,
+.row.servicios,
+.row.transparencia {
+	margin-top:211px;
+	margin-bottom:210px
+}
+.objetivos li {
+	line-height:20px;
+	margin-bottom:3px
+}
+.mes {
+	display:block;
+	font-family:'montserratbold';
+	font-size:64px;
+	margin:70px 0;
+	text-transform:uppercase
+}
+.verde {
+	color:#b3d807
+}
+.azul {
+	color:#07aec7
+}
+.plomo {
+	color:#606488
+}
+
+@media (max-width: 991px) {
+	body {
+		font-size:13px
+	}
+	h2 {
+		font-size:32px
+	}
+	h3 {
+		font-size:15px
+	}
+	h4 {
+		font-size:22px
+	}
+	.menu a {
+		margin:0 3px
+	}
+	.mes {
+		font-size:32px;
+		margin:30px 0
+	}
+}
+
+.vertical-align {
+	display:flex;
+	flex-direction:row
+}
+.vertical-align > [class^="col-"],
+.vertical-align > [class*=" col-"] {
+	display:flex;
+	align-items:center;
+	justify-content:center; /* Optional, to align inner items 
+							   horizontally inside the column */
+}
+
+.separador {
+	background-color:#c5c5c5;
+	border:none;
+	height:1px;
+	margin:31px 0
+}
