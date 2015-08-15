@@ -2,66 +2,123 @@
 @section('contenido')
 <section class="container-fluid fondo">
 	<div class="container">
-		<div class="row transparencia">
-			<div class="col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">
-				<h2>
-					TRANSPARENCIA
-				</h2>
+		<div class="contenedor-transparencia">
+			<div class="row transparencia">
+				<div class="col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">
+					<h2>
+						TRANSPARENCIA
+					</h2>
+				</div>
 			</div>
+			<div class="clearfix"></div>
+			<div class="row wow fadeIn">
+				<div class="col-sm-7">
+					<p class="titulo rojo">
+						BALANCE GENERAL 2009-20015
+					</p>
+					<p>
+						Lista de patrocinados, amigos vecinos que donaron herramientas para la contruccion de mas ambientes ....
+					</p>
+				</div>
+				<div class="col-sm-5">
+					<a href="#" class="pull-right descarga">
+						<img src="{{url()}}/img/descargar-pdf.jpg" alt="" class="img-responsive">
+					</a>
+				</div>
+			</div>
+			<hr class="separador">
+			<div class="row wow fadeIn">
+				<div class="col-sm-7">
+					<p class="titulo verde">
+						BALANCE GENERAL 2009-20015
+					</p>
+					<p>
+						Lista de patrocinados, amigos vecinos que donaron herramientas para la contruccion de mas ambientes ....
+					</p>
+				</div>
+				<div class="col-sm-5">
+					<a href="#" class="pull-right descarga">
+						<img src="{{url()}}/img/descargar-xls.jpg" alt="" class="img-responsive">
+					</a>
+				</div>
+			</div>
+			<hr class="separador">
+			<div class="row wow fadeIn">
+				<div class="col-sm-7">
+					<p class="titulo rojo">
+						BALANCE GENERAL 2009-20015
+					</p>
+					<p>
+						Lista de patrocinados, amigos vecinos que donaron herramientas para la contruccion de mas ambientes ....
+					</p>
+				</div>
+				<div class="col-sm-5">
+					<a href="#" class="pull-right descarga">
+						<img src="{{url()}}/img/descargar-pdf.jpg" alt="" class="img-responsive">
+					</a>
+				</div>
+			</div>
+			<hr class="separador">
+			<div class="row wow fadeIn">
+				<div class="col-sm-7">
+					<p class="titulo verde">
+						BALANCE GENERAL 2009-20015
+					</p>
+					<p>
+						Lista de patrocinados, amigos vecinos que donaron herramientas para la contruccion de mas ambientes ....
+					</p>
+				</div>
+				<div class="col-sm-5">
+					<a href="#" class="pull-right descarga">
+						<img src="{{url()}}/img/descargar-xls.jpg" alt="" class="img-responsive">
+					</a>
+				</div>
+			</div>
+			<hr class="separador">
+			<div class="row wow fadeIn">
+				<div class="col-sm-7">
+					<p class="titulo verde">
+						BALANCE GENERAL 2009-20015
+					</p>
+					<p>
+						Lista de patrocinados, amigos vecinos que donaron herramientas para la contruccion de mas ambientes ....
+					</p>
+				</div>
+				<div class="col-sm-5">
+					<a href="#" class="pull-right descarga">
+						<img src="{{url()}}/img/descargar-xls.jpg" alt="" class="img-responsive">
+					</a>
+				</div>
+			</div>
+			<hr class="separador">
+			<div class="row wow fadeIn">
+				<div class="col-sm-7">
+					<p class="titulo rojo">
+						BALANCE GENERAL 2009-20015
+					</p>
+					<p>
+						Lista de patrocinados, amigos vecinos que donaron herramientas para la contruccion de mas ambientes ....
+					</p>
+				</div>
+				<div class="col-sm-5">
+					<a href="#" class="pull-right descarga">
+						<img src="{{url()}}/img/descargar-pdf.jpg" alt="" class="img-responsive">
+					</a>
+				</div>
+			</div>
+			<hr class="separador">
 		</div>
-		<div class="clearfix"></div>
-		<div class="row vertical-align wow fadeIn">
+		<div class="row wow fadeIn">
 			<div class="col-sm-7">
-				<img src="{{url()}}/img/servicios-salon-de-recepcion.jpg" alt="" class="img-responsive img-rounded">
+				&nbsp;
 			</div>
 			<div class="col-sm-5">
-				<p>
-					Hoy es un gran día porque cumplen años nuestros hermanos, vecinos, amigos, familiares. Les deseamos un feliz cumpleaños a lado de sus seres queridos y de parte de sus amigos de APUPAL:
+				<p class="text-right">
+					<a href="#" class="cargar-mas">
+						Cargar Más...
+					</a>
 				</p>
-			</div>
-		</div>
-		<hr class="separador">
-		<div class="row vertical-align wow fadeIn">
-			<div class="col-sm-7">
-				<img src="{{url()}}/img/servicios-cancha.jpg" alt="" class="img-responsive img-rounded">
-			</div>
-			<div class="col-sm-5">
-				<p>
-					Hoy es un gran día porque cumplen años nuestros hermanos, vecinos, amigos, familiares. Les deseamos un feliz cumpleaños a lado de sus seres queridos y de parte de sus amigos de APUPAL:
-				</p>
-			</div>
-		</div>
-		<hr class="separador">
-		<div class="row vertical-align wow fadeIn">
-			<div class="col-sm-7">
-				<img src="{{url()}}/img/servicios-piscina.jpg" alt="" class="img-responsive img-rounded">
-			</div>
-			<div class="col-sm-5">
-				<p>
-					Hoy es un gran día porque cumplen años nuestros hermanos, vecinos, amigos, familiares. Les deseamos un feliz cumpleaños a lado de sus seres queridos y de parte de sus amigos de APUPAL:
-				</p>
-			</div>
-		</div>
-		<hr class="separador">
-		<div class="row vertical-align wow fadeIn">
-			<div class="col-sm-7">
-				<img src="{{url()}}/img/servicios-talleres.jpg" alt="" class="img-responsive img-rounded">
-			</div>
-			<div class="col-sm-5">
-				<p>
-					Hoy es un gran día porque cumplen años nuestros hermanos, vecinos, amigos, familiares. Les deseamos un feliz cumpleaños a lado de sus seres queridos y de parte de sus amigos de APUPAL:
-				</p>
-			</div>
-		</div>
-		<hr class="separador">
-		<div class="row vertical-align wow fadeIn">
-			<div class="col-sm-7">
-				<img src="{{url()}}/img/servicios-actividades-recreativas.jpg" alt="" class="img-responsive img-rounded">
-			</div>
-			<div class="col-sm-5">
-				<p>
-					Hoy es un gran día porque cumplen años nuestros hermanos, vecinos, amigos, familiares. Les deseamos un feliz cumpleaños a lado de sus seres queridos y de parte de sus amigos de APUPAL:
-				</p>
+					
 			</div>
 		</div>
 	</div>

@@ -18,6 +18,7 @@
 		<script src="{{url()}}/js/bootstrap.min.js"></script>
 		<script src="{{url()}}/js/jquery.smooth-scroll.min.js"></script>
 		<script src="{{url()}}/js/wow.min.js"></script>
+		<script src="{{url()}}/js/jquery.validate.min.js"></script>
 		<script src="{{url()}}/js/main.js"></script>
 		<script>
 			var urlBase = '{{url()}}';

@@ -6,3 +6,4 @@ Route::get('/servicios', array('as' => 'servicios', 'uses' => 'HomeController@ge
 Route::get('/galeria', array('as' => 'galeria', 'uses' => 'HomeController@getGaleria'));
 Route::get('/transparencia', array('as' => 'transparencia', 'uses' => 'HomeController@getTransparencia'));
 Route::get('/contacto', array('as' => 'contacto', 'uses' => 'HomeController@getContacto'));
+Route::post('/contacto', array('as' => 'contacto', 'uses' => 'HomeController@postContacto'));

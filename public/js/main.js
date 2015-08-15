@@ -8,4 +8,5 @@ $(document).ready(function () {
 		else
 			$('header').removeClass('degrade');
 	};
+	$('form').validate();
 });

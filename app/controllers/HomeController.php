@@ -27,5 +27,22 @@ class HomeController extends BaseController {
 		$this->_maxScroll = 410;
 		return View::make('transparencia')->with('maxScroll', $this->_maxScroll);
 	}
+	
+	public function getContacto()
+	{
+		$this->_maxScroll = 410;
+		return View::make('contacto')->with('maxScroll', $this->_maxScroll);
+	}
+	
+	public function postContacto()
+	{
+		if (Request::isMethod('post'))
+		{
+			$nombre = Input::get('name');
+			$telefono = Input::get('telefono');
+			$email = Input::get('email');
+			$mensaje = Input::get('mensaje');
+		}
+	}
 
 }

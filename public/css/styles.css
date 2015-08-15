@@ -33,11 +33,10 @@
 }
 body {
 	font-family:'pantonregular';
-	font-size:15px
-}
-body.nosotros,
-.body.servicios {
 	font-size:13px
+}
+body.inicio {
+	font-size:15px
 }
 a {
 	display:inline-block
@@ -62,7 +61,7 @@ footer {
 	background-color:#1d2525;
 	color:#687979;
 	height:128px;
-	margin-top:60px;
+	margin-top:72px;
 	overflow:hidden
 }
 footer .container {
@@ -75,6 +74,9 @@ footer p {
 }
 footer img {
 	margin-top:10px
+}
+.contacto footer {
+	margin-top:0
 }
 h2,h3,h4 {
 	text-align:center
@@ -141,6 +143,9 @@ h4 {
 .transparencia .fondo {
 	background-image:url('../img/fondo-transparencia.jpg')
 }
+.contacto .fondo {
+	background-image:url('../img/fondo-contacto.jpg')
+}
 .bajar {
 	width:49px;
 	margin-top:140px
@@ -151,7 +156,8 @@ h4 {
 }
 .row.nosotros,
 .row.servicios,
-.row.transparencia {
+.row.transparencia,
+.row.contacto {
 	margin-top:211px;
 	margin-bottom:210px
 }
@@ -174,6 +180,36 @@ h4 {
 }
 .plomo {
 	color:#606488
+}
+.titulo {
+	font-family:'montserratbold';
+	font-size:20px;
+	margin-bottom:30px
+}
+.titulo.rojo {
+	color:#fd3f3f
+}
+.titulo.verde {
+	color:#38be0e
+}
+.descarga {
+	margin-top:15px
+}
+.cargar-mas {
+	color:#565757;
+	font-size:16px;
+	line-height:60px;
+	margin-right:60px
+}
+.cargar-mas:hover {
+	color:#565757
+}
+.inputbox {
+	border:1px solid #b3d807;
+	color:#09afc5;
+	font-size:15px;
+	line-height:22px;
+	padding:10px
 }
 
 @media (max-width: 991px) {
@@ -215,4 +251,15 @@ h4 {
 	border:none;
 	height:1px;
 	margin:31px 0
+}
+#map {
+	height:545px;
+	margin-top:45px;
+	width:100%
+}
+label.error {
+	display:none!important
+}
+.inputbox.error {
+	border-color:red
 }
