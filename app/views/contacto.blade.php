@@ -18,15 +18,15 @@
 				<form class="form-horizontal" name="contacto" action="{{url()}}/contacto" method="post" id="contacto">
 					<div class="form-group">
 						<div class="col-sm-12">
-							<input type="text" class="form-control inputbox" id="nombre" name="nombre" placeholder="Nombres y Apellidos" required>
+							<input type="text" class="form-control inputbox" id="nombre" name="nombre" placeholder="Nombres y Apellidos" required maxlength="100">
 						</div>
 					</div>
 					<div class="form-group">
 						<div class="col-sm-6">
-							<input type="tel" class="form-control inputbox" id="telefono" name="tlefono" placeholder="Teléfono" required>
+							<input type="tel" class="form-control inputbox" id="telefono" name="tlefono" placeholder="Teléfono" required maxlength="50">
 						</div>
 						<div class="col-sm-6">
-							<input type="email" class="form-control inputbox" id="email" name="email" placeholder="E-mail" required>
+							<input type="email" class="form-control inputbox" id="email" name="email" placeholder="E-mail" required maxlength="100">
 						</div>
 					</div>
 					<div class="form-group">
