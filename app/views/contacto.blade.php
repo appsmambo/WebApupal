@@ -22,7 +22,7 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<div class="col-sm-6">
+						<div class="col-sm-6 margen-responsive">
 							<input type="tel" class="form-control inputbox" id="telefono" name="tlefono" placeholder="Teléfono" required maxlength="50">
 						</div>
 						<div class="col-sm-6">

@@ -29,12 +29,12 @@
 		<header class="hidden-xs">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-sm-5">
+					<div class="col-sm-4">
 						<a href="{{url()}}">
 							<img src="{{url()}}/img/logo.png" alt="" class="img-responsive">
 						</a>
 					</div>
-					<div class="col-sm-7">
+					<div class="col-sm-8">
 						<p class="text-right menu">
 							<a class="{{(Route::current()->getName() == 'inicio' ) ? 'active' : ''}}" href="{{url()}}">Inicio</a>
 							<a class="{{(Route::current()->getName() == 'nosotros' ) ? 'active' : ''}}" href="{{url()}}/nosotros">Nosotros</a>
@@ -56,7 +56,7 @@
 				</div>
 			</div>
 		</header>
-		<nav class="navbar navbar-default hidden">
+		<nav class="navbar navbar-default visible-xs navbar-inverse">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -66,28 +66,37 @@
 						<span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand" href="{{url()}}">
-						<img src="{{url()}}/img/logo.png" alt="" class="img-responsive">
+						<img src="{{url()}}/img/logo-mobile.png" alt="" class="img-responsive">
 					</a>
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
-						<li>
-							<a href="#">Inicio</a>
+						<li class="{{(Route::current()->getName() == 'inicio' ) ? 'active' : ''}}">
+							<a href="{{url()}}">Inicio</a>
 						</li>
-						<li>
-							<a href="#">Nosotros</a>
+						<li class="{{(Route::current()->getName() == 'nosotros' ) ? 'active' : ''}}">
+							<a href="{{url()}}/nosotros">Nosotros</a>
 						</li>
-						<li>
-							<a href="#">Servicios</a>
+						<li class="{{(Route::current()->getName() == 'servicios' ) ? 'active' : ''}}">
+							<a href="{{url()}}/servicios">Servicios</a>
 						</li>
-						<li>
+						<li class="{{(Route::current()->getName() == 'galeria' ) ? 'active' : ''}}">
 							<a href="#">Galería</a>
 						</li>
-						<li>
-							<a href="#">Transparencia</a>
+						<li class="{{(Route::current()->getName() == 'transparencia' ) ? 'active' : ''}}">
+							<a href="{{url()}}/transparencia">Transparencia</a>
+						</li>
+						<li class="{{(Route::current()->getName() == 'contacto' ) ? 'active' : ''}}">
+							<a href="{{url()}}/contacto">Contacto</a>
 						</li>
 						<li>
-							<a href="#">Contacto</a>
+							<a href="#" class="inline">
+								<img src="{{url()}}/img/social-facebook.png" alt="">
+							</a>
+							&nbsp;
+							<a href="#" class="inline">
+								<img src="{{url()}}/img/social-youtube.png" alt="">
+							</a>
 						</li>
 					</ul>
 				</div>
@@ -96,7 +105,7 @@
 		@yield('contenido')
 		<footer>
 			<div class="container">
-				<div class="row">
+				<div class="row hidden-xs">
 					<div class="col-sm-6">
 						<p>
 							&copy; Copyright Apupal 2015  /  Todos los Derechos Reservados.
@@ -111,6 +120,11 @@
 						</p>
 					</div>
 				</div>
+				<p class="visible-xs">
+					&copy; Copyright Apupal 2015  /  Todos los Derechos Reservados.<br>
+					Jr. Los Helenios 3843 piso 3, Urb. Las Palmeras - Los Olivos<br>
+					<img src="{{url()}}/img/logo-patmos.png" class="pull-left" alt="">
+				</p>
 			</div>
 		</footer>
 	</body>

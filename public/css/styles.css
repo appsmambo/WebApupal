@@ -1,33 +1,33 @@
 @font-face {
 	font-family:'montserratbold';
-	src:url('../font/montserrat-bold-webfont.eot');
-	src:url('../font/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
-		url('../font/montserrat-bold-webfont.woff2') format('woff2'),
-		url('../font/montserrat-bold-webfont.woff') format('woff'),
-		url('../font/montserrat-bold-webfont.ttf') format('truetype'),
-		url('../font/montserrat-bold-webfont.svg#montserratbold') format('svg');
+	src:url('../fonts/montserrat-bold-webfont.eot');
+	src:url('../fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+		url('../fonts/montserrat-bold-webfont.woff') format('woff'),
+		url('../fonts/montserrat-bold-webfont.ttf') format('truetype'),
+		url('../fonts/montserrat-bold-webfont.svg#montserratbold') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family:'pantonitalic';
-	src:url('../font/panton-italic-webfont.eot');
-	src:url('../font/panton-italic-webfont.eot?#iefix') format('embedded-opentype'),
-		url('../font/panton-italic-webfont.woff2') format('woff2'),
-		url('../font/panton-italic-webfont.woff') format('woff'),
-		url('../font/panton-italic-webfont.ttf') format('truetype'),
-		url('../font/panton-italic-webfont.svg#pantonitalic') format('svg');
+	src:url('../fonts/panton-italic-webfont.eot');
+	src:url('../fonts/panton-italic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/panton-italic-webfont.woff2') format('woff2'),
+		url('../fonts/panton-italic-webfont.woff') format('woff'),
+		url('../fonts/panton-italic-webfont.ttf') format('truetype'),
+		url('../fonts/panton-italic-webfont.svg#pantonitalic') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family:'pantonregular';
-	src:url('../font/panton-regular-webfont.eot');
-	src:url('../font/panton-regular-webfont.eot?#iefix') format('embedded-opentype'),
-		url('../font/panton-regular-webfont.woff2') format('woff2'),
-		url('../font/panton-regular-webfont.woff') format('woff'),
-		url('../font/panton-regular-webfont.ttf') format('truetype'),
-		url('../font/panton-regular-webfont.svg#pantonregular') format('svg');
+	src:url('../fonts/panton-regular-webfont.eot');
+	src:url('../fonts/panton-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/panton-regular-webfont.woff2') format('woff2'),
+		url('../fonts/panton-regular-webfont.woff') format('woff'),
+		url('../fonts/panton-regular-webfont.ttf') format('truetype'),
+		url('../fonts/panton-regular-webfont.svg#pantonregular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -212,10 +212,7 @@ h4 {
 	padding:10px
 }
 
-@media (max-width: 991px) {
-	body {
-		font-size:13px
-	}
+@media (max-width: 768px) {
 	h2 {
 		font-size:32px
 	}
@@ -225,12 +222,36 @@ h4 {
 	h4 {
 		font-size:22px
 	}
-	.menu a {
-		margin:0 3px
-	}
 	.mes {
 		font-size:32px;
 		margin:30px 0
+	}
+	footer {
+		height:92px
+	}
+	footer .container {
+		margin-top:16px
+	}
+	.nav>li>a.inline {
+		display:inline-block
+	}
+	.margen-responsive {
+		margin-bottom:15px
+	}
+}
+
+@media (max-width: 991px) {
+	body {
+		font-size:13px
+	}
+	.menu a {
+		margin:0 3px
+	}
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+	.menu a {
+		margin:0 6px
 	}
 }
 
