@@ -214,17 +214,41 @@ h4 {
 
 @media (max-width: 768px) {
 	h2 {
-		font-size:32px
+		font-size:30px
 	}
 	h3 {
 		font-size:15px
 	}
 	h4 {
-		font-size:22px
+		font-size:22px;
+		margin:40px 0
+	}
+	.inicio .fondo {
+		background-position-y:-280px
+	}
+	.nosotros .fondo,
+	.servicios .fondo,
+	.transparencia .fondo,
+	.contacto .fondo {
+		background-position-y:-240px
+	}
+	.row.inicio {
+		margin-top:100px;
+		margin-bottom:67px
+	}
+	.row.nosotros,
+	.row.servicios,
+	.row.transparencia,
+	.row.contacto {
+		margin-top:90px;
+		margin-bottom:110px
 	}
 	.mes {
-		font-size:32px;
+		font-size:28px;
 		margin:30px 0
+	}
+	.descarga {
+		width:50%
 	}
 	footer {
 		height:92px

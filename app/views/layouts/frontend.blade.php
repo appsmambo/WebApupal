@@ -7,7 +7,7 @@
 		<title>Apupal</title>
 		<link href="{{url()}}/css/animate.css" rel="stylesheet" type="text/css">
 		<link href="{{url()}}/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-		<link href="{{url()}}/css/styles.css" rel="stylesheet" type="text/css">
+		<link href="{{url()}}/css/styles.css?v=1" rel="stylesheet" type="text/css">
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -19,7 +19,7 @@
 		<script src="{{url()}}/js/jquery.smooth-scroll.min.js"></script>
 		<script src="{{url()}}/js/wow.min.js"></script>
 		<script src="{{url()}}/js/jquery.validate.min.js"></script>
-		<script src="{{url()}}/js/main.js"></script>
+		<script src="{{url()}}/js/main.js?v=1"></script>
 		<script>
 			var urlBase = '{{url()}}';
 			var maxScroll = {{$maxScroll}};
@@ -90,11 +90,10 @@
 							<a href="{{url()}}/contacto">Contacto</a>
 						</li>
 						<li>
-							<a href="#" class="inline">
+							<a href="#" class="inline" style="width:40px">
 								<img src="{{url()}}/img/social-facebook.png" alt="">
 							</a>
-							&nbsp;
-							<a href="#" class="inline">
+							<a href="#" class="inline" style="width:40px">
 								<img src="{{url()}}/img/social-youtube.png" alt="">
 							</a>
 						</li>
@@ -120,10 +119,10 @@
 						</p>
 					</div>
 				</div>
-				<p class="visible-xs">
+				<p class="visible-xs text-center">
 					&copy; Copyright Apupal 2015  /  Todos los Derechos Reservados.<br>
 					Jr. Los Helenios 3843 piso 3, Urb. Las Palmeras - Los Olivos<br>
-					<img src="{{url()}}/img/logo-patmos.png" class="pull-left" alt="">
+					<img src="{{url()}}/img/logo-patmos.png" class="center-block" alt="">
 				</p>
 			</div>
 		</footer>

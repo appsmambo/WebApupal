@@ -13,7 +13,6 @@
 		<div class="row">
 			<div class="col-sm-8 col-sm-offset-2">
 				<p class="text-center">
-					<br><br><br>
 					APUPAL, son las siglas de: Asociación de propietarios de la Urbanización Las Palmeras. APUPAL, Es una institucion autonoma de Naturaleza Social, Cultural y Recreacional Actua como 'Persona Juridica de derecho Privado; no tiene fines de lucro y es ajena a toda actividad política, ideológica y de creencia Religiosa.
 					<br><br>
 				</p>

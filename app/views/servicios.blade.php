@@ -10,59 +10,92 @@
 			</div>
 		</div>
 		<div class="clearfix"></div>
-		<div class="row vertical-align wow fadeIn">
-			<div class="col-sm-7">
-				<img src="{{url()}}/img/servicios-salon-de-recepcion.jpg" alt="" class="img-responsive img-rounded">
+		<div class="hidden-xs">
+			<div class="row vertical-align wow fadeIn">
+				<div class="col-sm-7">
+					<img src="{{url()}}/img/servicios-salon-de-recepcion.jpg" alt="" class="img-responsive img-rounded">
+				</div>
+				<div class="col-sm-5">
+					<p>
+						Hoy es un gran día porque cumplen años nuestros hermanos, vecinos, amigos, familiares. Les deseamos un feliz cumpleaños a lado de sus seres queridos y de parte de sus amigos de APUPAL:
+					</p>
+				</div>
 			</div>
-			<div class="col-sm-5">
-				<p>
-					Hoy es un gran día porque cumplen años nuestros hermanos, vecinos, amigos, familiares. Les deseamos un feliz cumpleaños a lado de sus seres queridos y de parte de sus amigos de APUPAL:
-				</p>
+			<hr class="separador">
+			<div class="row vertical-align wow fadeIn">
+				<div class="col-sm-7">
+					<img src="{{url()}}/img/servicios-cancha.jpg" alt="" class="img-responsive img-rounded">
+				</div>
+				<div class="col-sm-5">
+					<p>
+						Hoy es un gran día porque cumplen años nuestros hermanos, vecinos, amigos, familiares. Les deseamos un feliz cumpleaños a lado de sus seres queridos y de parte de sus amigos de APUPAL:
+					</p>
+				</div>
+			</div>
+			<hr class="separador">
+			<div class="row vertical-align wow fadeIn">
+				<div class="col-sm-7">
+					<img src="{{url()}}/img/servicios-piscina.jpg" alt="" class="img-responsive img-rounded">
+				</div>
+				<div class="col-sm-5">
+					<p>
+						Hoy es un gran día porque cumplen años nuestros hermanos, vecinos, amigos, familiares. Les deseamos un feliz cumpleaños a lado de sus seres queridos y de parte de sus amigos de APUPAL:
+					</p>
+				</div>
+			</div>
+			<hr class="separador">
+			<div class="row vertical-align wow fadeIn">
+				<div class="col-sm-7">
+					<img src="{{url()}}/img/servicios-talleres.jpg" alt="" class="img-responsive img-rounded">
+				</div>
+				<div class="col-sm-5">
+					<p>
+						Hoy es un gran día porque cumplen años nuestros hermanos, vecinos, amigos, familiares. Les deseamos un feliz cumpleaños a lado de sus seres queridos y de parte de sus amigos de APUPAL:
+					</p>
+				</div>
+			</div>
+			<hr class="separador">
+			<div class="row vertical-align wow fadeIn">
+				<div class="col-sm-7">
+					<img src="{{url()}}/img/servicios-actividades-recreativas.jpg" alt="" class="img-responsive img-rounded">
+				</div>
+				<div class="col-sm-5">
+					<p>
+						Hoy es un gran día porque cumplen años nuestros hermanos, vecinos, amigos, familiares. Les deseamos un feliz cumpleaños a lado de sus seres queridos y de parte de sus amigos de APUPAL:
+					</p>
+				</div>
 			</div>
 		</div>
-		<hr class="separador">
-		<div class="row vertical-align wow fadeIn">
-			<div class="col-sm-7">
+		<div class="visible-xs">
+			<p class="wow fadeIn">
+				<img src="{{url()}}/img/servicios-salon-de-recepcion.jpg" alt="" class="img-responsive img-rounded center-block">
+				<br>
+				Hoy es un gran día porque cumplen años nuestros hermanos, vecinos, amigos, familiares. Les deseamos un feliz cumpleaños a lado de sus seres queridos y de parte de sus amigos de APUPAL:
+			</p>
+			<hr class="separador">
+			<p class="wow fadeIn">
 				<img src="{{url()}}/img/servicios-cancha.jpg" alt="" class="img-responsive img-rounded">
-			</div>
-			<div class="col-sm-5">
-				<p>
-					Hoy es un gran día porque cumplen años nuestros hermanos, vecinos, amigos, familiares. Les deseamos un feliz cumpleaños a lado de sus seres queridos y de parte de sus amigos de APUPAL:
-				</p>
-			</div>
-		</div>
-		<hr class="separador">
-		<div class="row vertical-align wow fadeIn">
-			<div class="col-sm-7">
+				<br>
+				Hoy es un gran día porque cumplen años nuestros hermanos, vecinos, amigos, familiares. Les deseamos un feliz cumpleaños a lado de sus seres queridos y de parte de sus amigos de APUPAL:
+			</p>
+			<hr class="separador">
+			<p class="wow fadeIn">
 				<img src="{{url()}}/img/servicios-piscina.jpg" alt="" class="img-responsive img-rounded">
-			</div>
-			<div class="col-sm-5">
-				<p>
-					Hoy es un gran día porque cumplen años nuestros hermanos, vecinos, amigos, familiares. Les deseamos un feliz cumpleaños a lado de sus seres queridos y de parte de sus amigos de APUPAL:
-				</p>
-			</div>
-		</div>
-		<hr class="separador">
-		<div class="row vertical-align wow fadeIn">
-			<div class="col-sm-7">
+				<br>
+				Hoy es un gran día porque cumplen años nuestros hermanos, vecinos, amigos, familiares. Les deseamos un feliz cumpleaños a lado de sus seres queridos y de parte de sus amigos de APUPAL:
+			</p>
+			<hr class="separador">
+			<p class="wow fadeIn">
 				<img src="{{url()}}/img/servicios-talleres.jpg" alt="" class="img-responsive img-rounded">
-			</div>
-			<div class="col-sm-5">
-				<p>
-					Hoy es un gran día porque cumplen años nuestros hermanos, vecinos, amigos, familiares. Les deseamos un feliz cumpleaños a lado de sus seres queridos y de parte de sus amigos de APUPAL:
-				</p>
-			</div>
-		</div>
-		<hr class="separador">
-		<div class="row vertical-align wow fadeIn">
-			<div class="col-sm-7">
+				<br>
+				Hoy es un gran día porque cumplen años nuestros hermanos, vecinos, amigos, familiares. Les deseamos un feliz cumpleaños a lado de sus seres queridos y de parte de sus amigos de APUPAL:
+			</p>
+			<hr class="separador">
+			<p class="wow fadeIn">
 				<img src="{{url()}}/img/servicios-actividades-recreativas.jpg" alt="" class="img-responsive img-rounded">
-			</div>
-			<div class="col-sm-5">
-				<p>
-					Hoy es un gran día porque cumplen años nuestros hermanos, vecinos, amigos, familiares. Les deseamos un feliz cumpleaños a lado de sus seres queridos y de parte de sus amigos de APUPAL:
-				</p>
-			</div>
+				<br>
+				Hoy es un gran día porque cumplen años nuestros hermanos, vecinos, amigos, familiares. Les deseamos un feliz cumpleaños a lado de sus seres queridos y de parte de sus amigos de APUPAL:
+			</p>
 		</div>
 	</div>
 </section>
